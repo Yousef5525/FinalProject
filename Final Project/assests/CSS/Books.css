@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 10px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+.head {
+  size: 20%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-size: 64px;
+  font-family: "Bebas Neue", cursive;
+}
+
+#PHT {
+  height: 300px;
+  margin: 45px;
+}
+
+.container {
+  height: 100vh;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: rgb(231, 255, 95);
+  width: 700px;
+  height: 800px;
+  border: none;
+  box-shadow: 40px 40px 40px #2b2929;
+  margin: 150px;
+  border-radius: 30%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+img {
+  width: 500px;
+  height: 500px;
+  padding-bottom: 5px;
+}
