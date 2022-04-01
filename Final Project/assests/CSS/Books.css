@@ -52,7 +52,7 @@ th:hover {
   padding: 10px;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: center;
   flex-wrap: wrap;
   margin: 420px;
 }
@@ -62,7 +62,7 @@ th:hover {
   padding: 10px;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: center;
   flex-wrap: wrap;
   margin: 420px;
 }
@@ -72,7 +72,7 @@ th:hover {
   padding: 10px;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: center;
   flex-wrap: wrap;
   margin: 420px;
 }
@@ -89,12 +89,12 @@ th:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
 }
 
 button {
   width: 400px;
-  height: 200px;
+  height: 100px;
   font-size: 60px;
   font-family: "Caveat", cursive;
   background-color: rgb(0, 0, 0);
@@ -174,4 +174,10 @@ li a.active {
 li a:hover:not(.active) {
   background-color: #555;
   color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  transition: all 0.5s;
 }
