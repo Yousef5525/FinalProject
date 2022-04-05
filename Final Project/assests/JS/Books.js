@@ -17,3 +17,5 @@ function ChangeBox(type) {
     document.getElementById("islam").style.display = "flex";
   }
 }
+
+console.log(ChangeBox);
