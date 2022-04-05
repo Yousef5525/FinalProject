@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 15%;
+  background-color: #e7e7e7;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  font-family: "IBM Plex Sans Arabic", sans-serif;
+}
+
+li a {
+  display: flex;
+  justify-content: flex-end;
+  color: #000;
+  padding: 8px 16px;
+  font-size: 68px;
+  text-decoration: none;
+  margin: 3px;
+  transition: all 0.4s;
+}
+
+li a.active {
+  font-size: 80px;
+  height: 220px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #04aa6d;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  height: 1600px;
+  width: 2800px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+button {
+  width: 600px;
+  height: 200px;
+  font-size: 80px;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  box-shadow: 30px 30px 30px #2b2929;
+  border-radius: 30%;
+  padding: 20px;
+  margin: 100px;
+}
+
+p {
+  font-size: 64px;
+  align-content: center;
+  margin-left: 400px;
+}

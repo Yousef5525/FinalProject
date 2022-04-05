@@ -1,0 +1,185 @@
+body {
+  margin: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+.head {
+  size: 20%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-size: 64px;
+  font-family: "Bebas Neue", cursive;
+}
+
+#PHT {
+  height: 300px;
+  margin: 45px;
+}
+
+.table {
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.button {
+  width: 600px;
+  height: 200px;
+  font-size: 80px;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  box-shadow: 30px 30px 30px #2b2929;
+  border-radius: 30%;
+  padding: 20px;
+  margin: 20px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: rgb(237, 240, 54);
+  color: black;
+}
+
+.container {
+  height: 25vh;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 420px;
+}
+
+.container2 {
+  height: 25vh;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 420px;
+}
+
+.container3 {
+  height: 25vh;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 420px;
+}
+
+.card {
+  background-color: rgb(231, 255, 95);
+  width: 800px;
+  height: 900px;
+  border: none;
+  box-shadow: 40px 40px 40px #2b2929;
+  margin: 150px;
+  border-radius: 30%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  width: 400px;
+  height: 100px;
+  font-size: 60px;
+  font-family: "Caveat", cursive;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border: none;
+  border-radius: 13%;
+  padding: 20px;
+  margin: 10px;
+  transition: all 0.5s;
+}
+
+button:hover {
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.text {
+  font-size: 68px;
+}
+
+.info {
+  height: 17vh;
+  padding: 10px;
+  margin: 330px;
+}
+
+img {
+  width: 400px;
+  height: 400px;
+  padding-bottom: 5px;
+  border-radius: 13%;
+}
+
+#logo {
+  width: 500px;
+  height: 500px;
+  padding-bottom: 5px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 15%;
+  background-color: #e7e7e7;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  font-family: "IBM Plex Sans Arabic", sans-serif;
+}
+
+li a {
+  display: flex;
+  justify-content: flex-end;
+  color: #000;
+  padding: 8px 16px;
+  font-size: 68px;
+  text-decoration: none;
+  margin: 3px;
+  transition: all 0.4s;
+}
+
+li a.active {
+  font-size: 80px;
+  height: 220px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #04aa6d;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  transition: all 0.5s;
+}
