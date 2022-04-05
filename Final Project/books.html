@@ -38,73 +38,73 @@
       <h1>المكتبة</h1>
     </div>
     <div class="table">
-         <buttun class="button">روايات</buttun>
-         <buttun class="button">تاريخ</buttun>
-         <buttun class="button">اسلاميات</buttun>
-         <buttun class="button">الكل</buttun>
+         <buttun class="button" onclick="ChangeBox(novel)">روايات</buttun>
+         <buttun class="button" onclick="ChangeBox(history)">تاريخ</buttun>
+         <buttun class="button" onclick="ChangeBox(islam)">اسلاميات</buttun>
+         <buttun class="button" onclick="ChangeBox(all)">الكل</buttun>
     </div>
-    <div class="container">
+    <div class="container" id="history">
       <div class="card">
         <img src="./assests/images/العثمانيون-في-التاريخ-والحضارة.png" alt="غلاف" />
-        <h1 class="text">اسم الكتاب</h1>
+        <h1 class="text">العثمانيون في التاريخ و الحضارة</h1>
         <button class="pointer">نبذة</button>
         <a href="/Final Project/assests/PDF/العثمانيو.pdf" download><button class="pointer">تنزيل</button></a>
       </div>
       <div class="card">
         <img src="./assests/images/تاريخ اوروبا في العصور الحديثة.jpg" alt="غلاف" />
-        <h1 class="text">اسم الكتاب</h1>
+        <h1 class="text">تاريخ اوروبا في العصور الحديثة</h1>
         <button class="pointer">نبذة</button>
         <a href="/Final Project/assests/PDF/تاريخ اوروبا في العصر الحديث.pdf" download><button class="pointer">تنزيل</button></a>    
         </div>
       <div class="card">
         <img src="./assests/images/تاريخ حضارات العالم.jpg" alt="غلاف" />
-        <h1 class="text">اسم الكتاب</h1>
+        <h1 class="text">تاريخ حضارات العالم </h1>
         <button class="pointer">نبذة</button>
         <a href="/Final Project/assests/PDF/تاريخ حضارات العالم.pdf" download><button class="pointer">تنزيل</button></a>      
       </div>
     </div>
-    <div class="container2">
+    <div class="container2" id="novel">
       <div class="card">
         <img src="./assests/images/اجاثاكريستي.jpg" alt="غلاف" />
-        <h1 class="text">اسم الكتاب</h1>
+        <h1 class="text">اجاثاكريستي </h1>
         <button class="pointer">نبذة</button>
         <a href="/Final Project/assests/PDF/اجاثاكريستي.pdf" download><button class="pointer">تنزيل</button></a>     
        </div>
       <div class="card">
         <img src="./assests/images/ثم راحت سنابل القمح تقطر دما.png" alt="غلاف" />
-        <h1 class="text">اسم الكتاب</h1>
+        <h1 class="text">ثم راحت سنابل القمح تقطر دما</h1>
         <button class="pointer">نبذة</button>
         <a href="/Final Project/assests/PDF/ثم راحت سنابل القمح تقطر دما.pdf" download><button class="pointer">تنزيل</button></a>     
        </div>
       <div class="card">
         <img src="./assests/images/عقل بلا جسد.jpg" alt="غلاف" />
-        <h1 class="text">اسم الكتاب</h1>
+        <h1 class="text">عقل بلا جسد</h1>
         <button class="pointer">نبذة</button>
         <a href="/Final Project/assests/PDF/عقل بلا .pdf" download><button class="pointer">تنزيل</button></a>     
        </div>
     </div>
-    <div class="container3">
+    <div class="container3" id="islam">
       <div class="card">
         <img src="./assests/images/دعوني و ربي.png" alt="غلاف" />
-        <h1 class="text">اسم الكتاب</h1>
+        <h1 class="text">دعوني و ربي</h1>
         <button class="pointer">نبذة</button>
         <a href="/Final Project/assests/PDF/دعوني و ربي.pdf" download><button class="pointer">تنزيل</button></a>     
        </div>
       <div class="card">
         <img src="./assests/images/مع الناس.jpg" alt="غلاف" />
-        <h1 class="text">اسم الكتاب</h1>
+        <h1 class="text">مع الناس</h1>
         <button class="pointer">نبذة</button>
         <a href="/Final Project/assests/PDF/مع الناس.pdf" download><button class="pointer">تنزيل</button></a>      
       </div>
       <div class="card">
         <img src="./assests/images/رحلتي من الشك للايمان.jpg" alt="غلاف" />
-        <h1 class="text">اسم الكتاب</h1>
+        <h1 class="text">رحلتي من الشك للايمان</h1>
         <button class="pointer">نبذة</button>
         <a href="/Final Project/assests/PDF/رحلتي من الكفر للايمان.pdf" download><button class="pointer">تنزيل</button></a>
       </div>
     </div>
     <div class="info"></div>
 
-    <script src="./assests/JS/Books.js"></script>
+  <script src="./assests/JS/Books.js"></script>
   </body>
 </html>
