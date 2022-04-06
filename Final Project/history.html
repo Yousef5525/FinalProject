@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!--add nav bar , make site arabic-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>المكتبة</title>
+    <link rel="icon" type="image/x-icon" href="./assests/images/icon.png" />
+    <link rel="stylesheet" href="assests/CSS/Books.css" />
+    <style>
+      body {
+        background-image: url(./assests/images/background.jpg);
+        background-size: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+    <ul id="navbar" >
+      <li>
+        <a class="active"
+          >Fine Line Books
+          <img
+            id="logo"
+            src="./assests/images/flb logo.png"
+            alt="شعار"
+            style="height: 130px"
+        /></a>
+      </li>
+      <li><a href="./index.html">الصفحة الرئيسية</a></li>
+      <li><a>المكتبة</a></li>
+      <li><a href="./about us.html">عن الموقع</a></li>
+      <li><a href="./contact us.html">تواصل معنا</a></li>
+    </ul>
+    <div class="head">
+      <img id="PHT" src="./assests/images/flb logo.png" alt="logo" />
+      <h1>المكتبة</h1>
+    </div>
+    <div class="table">
+      <a href="./novel.html"><buttun class="button" onclick="ChangeBox(novel)">روايات</buttun></a>
+      <a href="./history.html"><buttun class="button" onclick="ChangeBox(history)">تاريخ</buttun></a>
+      <a href="./islam.html"><buttun class="button" onclick="ChangeBox(islam)">اسلاميات</buttun></a>
+      <a href="./books.html"><buttun class="button" onclick="ChangeBox(all)">الكل</buttun></a>         
+    </div>
+    <div class="container" id="history">
+      <div class="card">
+        <img src="./assests/images/العثمانيون-في-التاريخ-والحضارة.png" alt="غلاف" />
+        <h1 class="text">العثمانيون في التاريخ و الحضارة</h1>
+        <button class="pointer">نبذة</button>
+        <a href="/Final Project/assests/PDF/العثمانيو.pdf" download><button class="pointer">تنزيل</button></a>
+      </div>
+      <div class="card">
+        <img src="./assests/images/تاريخ اوروبا في العصور الحديثة.jpg" alt="غلاف" />
+        <h1 class="text">تاريخ اوروبا في العصور الحديثة</h1>
+        <button class="pointer">نبذة</button>
+        <a href="/Final Project/assests/PDF/تاريخ اوروبا في العصر الحديث.pdf" download><button class="pointer">تنزيل</button></a>    
+        </div>
+      <div class="card">
+        <img src="./assests/images/تاريخ حضارات العالم.jpg" alt="غلاف" />
+        <h1 class="text">تاريخ حضارات العالم </h1>
+        <button class="pointer">نبذة</button>
+        <a href="/Final Project/assests/PDF/تاريخ حضارات العالم.pdf" download><button class="pointer">تنزيل</button></a>      
+      </div>
+    </div>
+    <div class="info"></div>
+
+  <script src="./assests/JS/Books.js"></script>
+  </body>
+</html>
