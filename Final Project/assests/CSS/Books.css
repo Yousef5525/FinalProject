@@ -41,12 +41,15 @@ body {
   padding: 20px;
   margin: 20px;
   transition: all 0.5s;
-  cursor: pointer;
 }
 
 .button:hover {
   background-color: rgb(237, 240, 54);
   color: black;
+}
+
+.button {
+  cursor: pointer;
 }
 
 .container {
